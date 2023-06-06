@@ -1,7 +1,7 @@
 *{
     margin: 0 auto;
 }
-p{
+main, header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.8em;
 }
