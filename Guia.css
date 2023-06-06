@@ -9,6 +9,7 @@ main, header p{
 
 header, main, nav, footer{
     width: 90%;
+    box-sizing: border-box;
 }
 header, footer{
     

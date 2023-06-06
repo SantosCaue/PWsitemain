@@ -1,17 +1,21 @@
 form{
-margin: 10px;
+    margin: 10px;
 padding:  20px 0px 20px 20px;
 text-align: left;
 
 }
-label{
+form p{
+    margin-top: 5px;
+}
+label, span{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
 }
-input{
+input, #estado{
     height: 30px;
     margin-bottom: 20px;
     background-color: #c0c0c0;
     border-radius: 5px;
     border:  solid black 2px;
+    color:  black;
 }
