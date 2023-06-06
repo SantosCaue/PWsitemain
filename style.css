@@ -1,0 +1,178 @@
+* {
+    margin: auto;
+}
+
+/*   colocar no style pq ela é tão bnt
+mas slk como pode algm ser tão bela 
+deve ser ilegal tem como não
+ctz q esse comentário vai me fuder ainda mas é a vida e fatos são fato e ela ser a pessoa mais linda desse planeta  tbm é um fato
+*/
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'DM Sans';
+    font-size: 80px;
+}
+
+/*  
+Define margem de 0px a todas caixas 
+*/
+header,
+nav,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-color: #04284a;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /*text-shadow: 10px 10px 15px #00ff00; */
+}
+
+nav {
+    background-color: #044a0e;
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    height: 46px;
+    width: 60%;
+    display: flex;
+    text-align: center;
+}
+
+nav div a {
+    font-size: 23px;
+    color: white;
+    font-family: 'DM Sans';
+    text-decoration: none;
+    padding: 20px, 30px;
+}
+
+nav div a:hover {
+    box-shadow: 3px 3px 8px #000000;
+}
+
+main {
+    background-color: #8f8f8f;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    /* column = horizontal */
+    /* margin-top: 10px;
+    border: groove #04284a 10px;
+    box-sizing: border-box;  SOMA A BORDA MAIS A CAIXA COMO UMA SÓ UNIDADE
+    box-shadow: 10px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;*/
+}
+
+main div#Box1 {
+    flex: 40%;
+    margin: 20px;
+    display: flex;
+}
+
+div#Box1 div {
+    flex: 1;
+    margin: 20px;
+}
+
+div#Box1 div a {
+    flex: 1;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+div#Box1 img {
+    height: 66.666666%;
+    width: 100%;
+}
+
+div#Box1 div h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+main div#Box2 {
+    flex: 30%;
+    background-color: #137e21;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    animation-name: teste2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+ div#Box2 h1{
+    animation-name: teste1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes teste1{
+    0%{
+        color: #FF0000;
+        font-size: 80px;
+    }
+    25%{
+        color: #8B00FF;
+        font-size: 60px;
+
+    }
+    50%{
+        color: #18ff52;
+        font-size: 40px;
+
+    }
+    75%{
+        color: #18ffec;
+        font-size: 40px;
+    }
+    100%{
+        color: #FF0000;
+        font-size: 80px;
+
+
+    }
+ }
+
+ @keyframes teste2{
+ 0%{
+background-color: wheat
+ }
+ 33%{
+    background-color: lightcoral;
+ }
+ 66%{
+    background-color: lightskyblue;
+ }
+ 100%{
+    background-color: wheat;
+ }
+
+}
+main div#Box3 {
+    flex: 30%;
+    background-color: #0f0f79;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #04284a;
+    color: rgb(239, 238, 255);
+    height: 200px;
+    display: flex;
+    align-items: center;
+}

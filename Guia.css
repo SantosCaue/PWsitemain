@@ -1,0 +1,101 @@
+*{
+    margin: 0 auto;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+}
+/* Para computador desktop*/
+
+header, main, nav, footer{
+    width: 90%;
+}
+header, footer{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #A4DE02;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.8vw;
+}
+header div{
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    align-items:center;
+}
+nav{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #68bb59;
+    align-items: center;
+    padding:10px
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: #1e5631;
+}
+main{
+    
+     background-color: #acdf87;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+
+}
+div#galeria{
+    display: flex;
+    flex-direction: row;
+
+}
+#galeria div{
+    flex: 1;
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+div#lol img{
+    width: 80%;
+}
+div#galeria div p{
+    margin: 15px;
+    color: white;
+
+}
+div#galeria img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+footer{
+    height: 30px;
+    align-items: center;
+}
+
+/*Para celular*/
+@media only screen and (max-width: 600px){ 
+    header, nav, main, footer{
+        width: 100%;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 30px;
+    }
+    div#galeria{
+        margin-top: 80px;
+        flex-direction: column;
+        width: 75%;
+    }
+ 
+
+}
